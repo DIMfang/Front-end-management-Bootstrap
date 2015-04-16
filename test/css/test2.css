@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+
+
+
+body{
+	background-color:#fff;
+}
+.wrapper {
+  .make-row();
+}
+.content-main {
+  .make-lg-column(8);
+}
+.content-secondary {
+  .make-lg-column(3);
+  .make-lg-column-offset(1);
+}
+
+th{
+	
+	background-color:#8AB5F1;}
+

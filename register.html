@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>login</title>
+
+
+
+<!-- 新 Bootstrap 核心 CSS 文件 -->
+<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+
+<!-- 可选的Bootstrap主题文件（一般不用引入） -->
+<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap-theme.min.css">
+
+<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+    
+    
+<link href="css/input.css" rel="stylesheet" type="text/css">
+<link href="css/default.css" rel="stylesheet" type="text/css">
+
+<script src="js/button_select.js"></script>
+
+</head>
+
+<body>
+
+    <nav class="navbar  navbar-fixed-top" role="navigation">
+            <div class="container-fluid">
+                <div class="row">
+                	<div class="col-sm-3 col-sm-offset-2">
+                		<img src="img/logo.png" />
+                  </div>
+                </div>
+            </div>
+    </nav>
+    
+    
+   	<div class="container-fluid" >
+    	<div class="row">
+            <div class="panel panel-default login-box">
+                <div class="panel-body" >
+                    <div class="login-box-header"><h3>用户注册</h3></div>
+                  
+                  <form class="form-signin" role="form" action="index.html">
+                  <div class="input-lable">用户名：</div>
+                    <div class="input-group">
+                        <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
+                        <input type="text" class="form-control" placeholder="请使用真实姓名" required autofocus>
+                    </div>
+                   <div class="input-lable">邮箱：</div>
+                    <div class="input-group">
+                        <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span>
+                        <input type="email" class="form-control" placeholder="请输入邮箱" required autofocus>
+                    </div>
+                   <div class="input-lable">密码：</div> 
+                    <div class="input-group">
+                    	<span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
+                    	<input type="password" class="form-control" placeholder="请输入密码" required>
+                    </div>
+                    <div class="input-lable">确认密码：</div>
+                    <div class="input-group">
+                    	<span class="input-group-addon"><span class="glyphicon glyphicon-print"></span></span>
+                    	<input type="password" class="form-control" placeholder="请再次输入密码" required>
+                    </div>
+                    
+                    <div class="input-lable">所在学校：</div>
+                    <div class="dropdown input-group">
+                    	<span class="input-group-addon"><span class="glyphicon glyphicon-home"></span></span>
+                      <button class="btn dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+                        请选择所在学校
+                        <span class="caret"></span>
+                      </button>
+                      <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1" id="list">
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">George Washington University</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Another action</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Something else here</a></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Separated link</a></li>
+                        <li role="presentation" class="divider"></li>
+                        <li role="presentation"><a role="menuitem" tabindex="-1" href="#">学校不在列表中</a></li>
+                      </ul>
+                     
+                    </div>
+                    
+                    <button class="submit-button" type="submit">注&nbsp;&nbsp;册</button>
+                    
+                    
+                  </form>
+                  
+                <div class="login-box-footer">已有账号？<a href="login.html">点击此处登陆</a></div>
+                </div>
+            </div>
+       </div>
+	</div>
+
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>index</title>
+
+<!-- 新 Bootstrap 核心 CSS 文件 -->
+<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+
+<!-- 可选的Bootstrap主题文件（一般不用引入） -->
+<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap-theme.min.css">
+
+<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+<script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
+
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="http://cdn.bootcss.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+
+<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<!-- 临时 -->
+<link rel="stylesheet" href="js/bootstrap/bootstrap.min.css">
+<link rel="stylesheet" href="js/bootstrap/bootstrap-theme.min.css">
+<script src="js/bootstrap/jquery-1.8.3.min.js"></script>
+<script src="js/bootstrap/bootstrap.min.js"></script>
+<!-- 临时 -->
+
+<link href="css/index.css" rel="stylesheet" type="text/css">
+<link href="css/default.css" rel="stylesheet" type="text/css">
+<link href="css/modal_alert.css" rel="stylesheet" type="text/css">
+<link href="css/modal_form_tables" rel="stylesheet" type="text/css">
+<link href="css/form_tables.css" rel="stylesheet" type="text/css">
+<!--date picker-->
+<link href="js/datepicker/bootstrap-datetimepicker.min.css" rel="stylesheet" media="screen">
+<script src="js/tool-tips.js"></script>
+<script src="js/nav-collapse.js"></script>
+<script src="js/textarea.js"></script>
+</head>
+
+<body>
+<!--所有modal全在此处--> 
+<!-- 通知栏Modal -->
+<div class="modal fade" id="myModal" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"> <span aria-hidden="true">&times;</span><span class="sr-only">Close</span> </button>
+        <h4 class="modal-title">通知</h4>
+      </div>
+      <div class="modal-body">
+        <ul class="ul-big list-group">
+          <li class="list-group-item-header list-group-item"> <span class="badge">4</span> <a href="#"><span class="glyphicon glyphicon-bookmark"></span>项目01</a> </li>
+          <li class="list-group-item"> <span class="hidden-xs badge">2014/01/01-22:00</span> <span class="hidden-xs badge"><a href="#">阿萨德</a>，<a href="#">发的撒</a>，<a href="#">发生</a></span> <a href="#">呵呵呵呵呵呵呵</a> </li>
+          <li class="list-group-item"> <span class="hidden-xs badge">2014/01/01-22:00</span> <span class="hidden-xs badge"><a href="#">阿萨德</a></span> <a href="#">是阿萨德雕塑改变都十分难受</a> </li>
+          <li class="list-group-item"> <span class="hidden-xs badge">2014/01/01-22:00</span> <span class="hidden-xs badge"><a href="#">阿萨德</a>，<a href="#">发的撒</a>，<a href="#">发生</a></span> <a href="#">塞法啊实打实的</a> </li>
+          <li class="list-group-item"> <span class="hidden-xs badge">2014/01/01-22:00</span> <span class="hidden-xs badge"><a href="#">阿萨德</a>，<a href="#">发的撒</a></span> <a href="#">哦啊山东哦就哦呵库巴的好</a> </li>
+        </ul>
+        <ul class="ul-big list-group">
+          <li class="list-group-item-header list-group-item"> <span class="badge">5</span> <a href="#"><span class="glyphicon glyphicon-bookmark"></span>项目04</a> </li>
+          <li class="list-group-item"> <span class="hidden-xs badge">2014/01/01-22:00</span> <span class="hidden-xs badge"><a href="#">阿萨德</a></span> <a href="#">呵呵呵呵呵呵呵</a> </li>
+          <li class="list-group-item"> <span class="hidden-xs badge">2014/01/01-22:00</span> <span class="hidden-xs badge"><a href="#">阿萨德</a>，<a href="#">发的撒</a>，<a href="#">发生</a></span> <a href="#">是阿萨德雕塑改变都十分难受</a> </li>
+          <li class="list-group-item"> <span class="hidden-xs badge">2014/01/01-22:00</span> <span class="hidden-xs badge"><a href="#">阿萨德</a>，<a href="#">发生</a></span> <a href="#">塞法啊实打实的</a> </li>
+          <li class="list-group-item"> <span class="hidden-xs badge">2014/01/01-22:00</span> <span class="hidden-xs badge"><a href="#">阿萨德</a>，<a href="#">发的撒</a>，<a href="#">发生</a></span> <a href="#">哦啊山东哦就哦呵库巴的好</a> </li>
+          <li class="list-group-item"> <span class="hidden-xs badge">2014/01/01-22:00</span> <span class="hidden-xs badge"><a href="#">阿萨德</a></span> <a href="#">哦啊山东哦就哦呵库巴的好</a> </li>
+        </ul>
+        <ul class="ul-big list-group">
+          <li class="list-group-item-header list-group-item"> <span class="badge">4</span> <a href="#"><span class="glyphicon glyphicon-bookmark"></span>项目06</a> </li>
+          <li class="list-group-item"> <span class="hidden-xs badge">2014/01/01-22:00</span> <span class="hidden-xs badge"><a href="#">阿萨德</a>，<a href="#">发的撒</a>，<a href="#">发生</a></span> <a href="#">呵呵呵呵呵呵呵</a> </li>
+          <li class="list-group-item"> <span class="hidden-xs badge">2014/01/01-22:00</span> <span class="hidden-xs badge"><a href="#">阿萨德</a></span> <a href="#">是阿萨德雕塑改变都十分难受</a> </li>
+          <li class="list-group-item"> <span class="hidden-xs badge">2014/01/01-22:00</span> <span class="hidden-xs badge"><a href="#">阿萨德</a>，<a href="#">发的撒</a>，<a href="#">发生</a></span> <a href="#">塞法啊实打实的</a> </li>
+          <li class="list-group-item"> <span class="hidden-xs badge">2014/01/01-22:00</span> <span class="hidden-xs badge"><a href="#">阿萨德</a>，<a href="#">发的撒</a></span> <a href="#">哦啊山东哦就哦呵库巴的好</a> </li>
+        </ul>
+      </div>
+      <div class="modal-footer"> </div>
+    </div>
+  </div>
+</div>
+<!-- 通知栏Modal 结束--> 
+
+<!--所有modal 结束-->
+
+<nav class="navbar navbar-fixed-top header" role="navigation">
+  <div class="container-fluid">
+    <div class="row"> 
+      <!--logo panel-->
+      <div class="col-lg-3 col-lg-offset-1 col-md-3 col-md-offset-1 col-sm-4 col-sm-offset-1 col-xs-4 col-xs-offset-0"> <a href="index.html"><img src="img/logo.png" /></a> </div>
+      <div class="font-logo col-lg-4 col-lg-offset-3 col-md-5 col-md-offset-2 col-sm-6 col-sm-offset-0 hidden-xs"> 
+        <!-- modal trigger --> 
+        <a href="#"  data-toggle="modal" data-target="#myModal"> <span class="glyphicon glyphicon-bell"></span>&nbsp;通知&nbsp;15 </a>&nbsp; 
+        <!--导航条会消失，modal放置在contain-main中--> 
+        <a href="#" onClick="iframe_jump('s')"> <span class="glyphicon glyphicon-globe"></span>&nbsp;创建团队 </a>&nbsp; <a href="newProject.html" > <span class="glyphicon glyphicon-plus"></span>&nbsp;新建项目 </a>&nbsp; <a href="#"> <span class="glyphicon glyphicon-user"></span>&nbsp;呵呵呵 </a>&nbsp; <a href="userInfo.html" > <span class="glyphicon glyphicon-cog"></span>&nbsp;设置 </a>&nbsp; </div>
+      <div class="collapse-icon font-logo hidden-lg hidden-md hidden-sm col-xs-2 col-xs-offset-5"> <a data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"><img src="img/collapse-1.png" /></a> </div>
+      <div id="collapseTwo" class="collapse hidden-sm hidden-md hidden-lg col-xs-12" style="background-color:#F00" > <a href="#" class="list-group-item" data-toggle="modal" data-target="#myModal"> <span class="glyphicon glyphicon-bell"></span>通知13 </a> <a href="newProject.html" class="list-group-item" > <span class="glyphicon glyphicon-plus"></span>新建项目 </a> <a class="list-group-item" href="#"><span class="glyphicon glyphicon-th-list"></span>所有项目</a> <a class="list-group-item" href="#"><span class="glyphicon glyphicon-calendar"></span>日程日历</a> <a class="list-group-item" href="#"><span class="glyphicon glyphicon-globe"></span>组织团队</a> <a class="list-group-item" href="userInfo.html"><span class="glyphicon glyphicon-cog"></span>账户设置</a> <a class="list-group-item" href="login.html"><span class="glyphicon glyphicon-log-out"></span>退出登录</a> <a id="nav-collapse" class="list-group-item" href="#" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> <span class="glyphicon glyphicon-arrow-up"></span>收起 </a> </div>
+    </div>
+  </div>
+</nav>
+
+<!--Need Server Side Include or JSP include-->
+
+<div class="content-main container-fluid" >
+  <div class="row"> 
+    <!--left panel-->
+    <div class="col-lg-2 col-md-2 col-sm-3 hidden-xs sidebar">
+      <table>
+        <tr>
+          <td rowspan="2"><img src="img/background.png"></td>
+          <td>呵呵呵</td>
+        </tr>
+        <tr>
+          <td><a href="#" data-toggle="email-tooltip" data-placement="bottom" title="<div class='emailtooltips'>注册邮箱</div>"> helliaudheusa@gmail.com </a></td>
+        </tr>
+      </table>
+      <ul class="nav nav-sidebar">
+        <li><a href="#"><span class="glyphicon glyphicon-th-list"></span>所有项目</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-calendar"></span>日程日历</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-globe"></span>组织团队</a></li>
+      </ul>
+    </div>
+    
+    <!--middle panel-->
+    <div class="mid-content col-lg-10 col-lg-offset-2 col-sm-9 col-md-10 col-md-offset-2 col-sm-offset-3 col-xs-12">
+      <form action="" class="form-horizontal"  role="form">
+        <div class="panel panel-default">
+        <div class="panel-body" id="formTable">
+          <div class="box row">
+            <div class="font-16 font-green col-xs-12 no-padding">项目名称</div>
+            <table border="0">
+              <tr>
+                <td><input type="text" class="input-title form-control" 
+                        placeholder="+请添加项目名称" maxlength="20" required autofocus /></td>
+                <td class="hidden-768 font-12 font-green"><span class="glyphicon glyphicon-list-alt"></span>公开项目 </td>
+              </tr>
+            </table>
+          </div>
+          <div class="box">
+            <div><br />
+            </div>
+            <div class="font-16 font-green">项目描述</div>
+            <textarea maxlength="1000" id="project-description" class="form-control" placeholder="＋请添加项目简介" rows="1" onpropertychange= "this.style.Height=this.scrollHeight "></textarea>
+          </div>
+          <div class="box">
+            <div class="box-dashed">
+              <div class="row">
+                <div class="font-14 font-666 col-sm-2 col-xs-3 ">活动时间</div>
+                <div class="col-xs-12">&nbsp;</div>
+                <div class="font-14 font-666 col-sm-2 col-xs-3 ">预演时间</div>
+                <div class="col-xs-12">&nbsp;</div>
+              </div>
+            </div>
+            <div class="box-none">
+              <div class="row">
+                <div class="col-xs-12">&nbsp;</div>
+                <div class="font-14 font-666 col-sm-2 col-xs-3 ">活动人数</div>
+                <div class="col-xs-12">&nbsp;</div>
+                <div class="col-xs-12">&nbsp;</div>
+                <div class="font-14 font-666 col-sm-2 col-xs-3 ">预算规模</div>
+                <div class="col-xs-12">&nbsp;</div>
+                <div class="col-xs-12">&nbsp;</div>
+                <div class="col-xs-12">&nbsp;</div>
+              </div>
+            </div>
+          </div>
+          <div><br />
+          </div>
+          <div class="box">
+            <div class="font-16 font-green">项目备注</div>
+            <textarea maxlength="10000" id="project-remarks" class="form-control" placeholder="＋请添加项目备注" rows="3" onpropertychange= "this.style.Height=this.scrollHeight "></textarea>
+          </div>
+          <div class="box-none">
+            <button class="half-button" type="submit">提&nbsp;&nbsp;交</button>
+            <button class="half-button" type="reset">取&nbsp;消&nbsp;修&nbsp;改</button>
+          </div>
+          <div class="box-none">&nbsp;</div>
+          <div class="box-none">&nbsp;</div>
+        </div>
+        <!--end panel panel-default end-->
+      </form>
+    </div>
+    <!--end middle panel- end--> 
+    
+  </div>
+</div>
+</div>
+</body>
+</html>
